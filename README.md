@@ -16,9 +16,8 @@ Este trabajo se enfoca en la migración de la aplicación **compressor-api**, de
 
 ### **Manifiestos**
 Se crearon 2 manifiestos los cuales son:
-- **redis_deployment.yaml**: Define el deployment de redis y su correspondiente service [redis_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/redis_deployment.yaml)
-- **compressor-app_deployment.yaml**: Define el deployment de la aplicación [compressor-app_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/compressor-app_deployment.yaml)
-
+- **[redis_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/redis_deployment.yaml)**: Define el deployment de redis y su correspondiente service
+- **[compressor-app_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/compressor-app_deployment.yaml)**: Define el deployment de la aplicación 
 ### **Proceso de despliegue**
 
 A continuación se detalla el proceso de despliegue en el orden aplicado
