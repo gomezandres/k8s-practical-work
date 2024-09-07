@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: compressor-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: compressor-api
+  template:
+    metadata:
+      labels:
+        app: compressor-api
+    spec:
+      containers:
+      - name: compressor-api
+        image: andresg278/compressor-api:v1.2.0
+        ports:
+        - containerPort: 8080
+        env:
+        - name: REDIS_URL
+          value: redis-service
+        - name: REDIS_PORT
+          value: "6379"
