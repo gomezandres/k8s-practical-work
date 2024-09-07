@@ -16,8 +16,8 @@ Este trabajo se enfoca en la migración de la aplicación **compressor-api**, de
 
 ### **Manifiestos**
 Se crearon 2 manifiestos los cuales son:
-- **redis_deployment.yaml**: Define el deployment de redis y su correspondiente service
-- **compressor-app_deployment.yaml**: Define el deployment de la aplicación compressor-api
+- **redis_deployment.yaml**: Define el deployment de redis y su correspondiente service [redis_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/redis_deployment.yaml))
+- **compressor-app_deployment.yaml**: Define el deployment de la aplicación [compressor-app_deployment.yaml](https://github.com/gomezandres/k8s-practical-work/blob/main/compressor-app_deployment.yaml)
 
 ### **Proceso de despliegue**
 
@@ -107,5 +107,5 @@ Hay varias mejoras que podemos implementar para aumentar la robustez, escalabili
 
 La migración a Kubernetes ha permitido escalar la aplicación **compressor-api** y mejorar su gestión. Al resolver el problema de conexión con Redis, se ha garantizado el correcto funcionamiento de la aplicación en el nuevo entorno.
 
-**Enlace al repositorio de Docker Hub:** 
+**Enlaces:** 
 [compressor-api v1.2.0](https://hub.docker.com/layers/andresg278/compressor-api/v1.2.0/images/sha256-9064e7b447ebb7d3f27851683664c1ca895c6b73f97687e010a32a598d745324?context=repo)
